@@ -1,6 +1,6 @@
 Update Log:
 
-PUSH 2 - 24/08/21
+PUSH 2 - 24/08/21 | Charlotte
 Updated character controller (FPD), removed obsolete code and updated where needed. Created fixed camera controls (use < and > keys).
 
 Created Lit Sprite Billboard Direction Shader for use on characters and small detail assets (e.g. grass) - see character controller for use with colliders etc.
@@ -11,4 +11,11 @@ To Do:
 Program animation based on key input - walk directions etc.
 Dialogue system creation
 UI mock up - basic assets and input
+
+PUSH 3 - 7/09/21 | Charlotte
+Added in Ink and Dialogue System. Wrote a few test scripts for it. Not too much this week many apologies.
+
+To Do:
+Continue implementing dialogue system
+Continue UI mockup - I'm thinking of doing photoshop mockups first then moving them into Unity
 
