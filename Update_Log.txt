@@ -26,3 +26,6 @@ To Do:
 Connect tablet UI components (the aim for Tues is the quests working at minimum)
 Finalise the dialogue UI functionality (no styling)
 Character animation controller
+
+PUSH 5 - 12/09/21 | Ben
+Added proper .gitignore. Added plugins (ProBuilder, ProGrids and Wwise). Greyboxed Airport level.
