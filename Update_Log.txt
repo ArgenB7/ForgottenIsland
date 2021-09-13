@@ -29,3 +29,6 @@ Character animation controller
 
 PUSH 5 - 12/09/21 | Ben
 Added proper .gitignore. Added plugins (ProBuilder, ProGrids and Wwise). Greyboxed Airport level.
+
+PUSH 6 - 13/09/21 | Dandelion
+Two conversations (Puca and Elwetritsch) Added to Airstrip - Introduction database.
