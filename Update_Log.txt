@@ -35,3 +35,6 @@ Two conversations (Puca and Elwetritsch) Added to Airstrip - Introduction databa
 
 PUSH 7 - 13/09/21 | Tanya
 Test push to fix bug
+
+PUSH 8 - 13/09/21 | Tanya
+Added airport assets into project - still needs texturing
