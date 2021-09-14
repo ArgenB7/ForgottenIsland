@@ -38,3 +38,14 @@ Test push to fix bug
 
 PUSH 8 - 13/09/21 | Tanya
 Added airport assets into project - still needs texturing
+
+PUSH 9 - 14/09/21 | Tanya
+Added airport assets into project - still needs texturing
+Textured airport assets, imported HolyShift low poly water shader (still need to import Unity Standard Assets for that to work)
+
+To Do:
+Implement animated environment sprites
+Place water shader
+
+PUSH 10 - 14/09/21 | Tanya
+To add in update log as above missed in PUSH 9
