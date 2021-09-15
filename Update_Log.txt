@@ -49,3 +49,22 @@ Place water shader
 
 PUSH 10 - 14/09/21 | Tanya
 To add in update log as above missed in PUSH 9
+
+PUSH 11 - 14/09/21 | Charlotte
+Build 2 is live people! Airport scene is set up with player, Puca and Elwestrich.
+
+Please remove the following assets from your projects:
+The entire HolyShift folder (this will crash your builds!)
+In Dialogue > Airstrip - Introduction.dialogue (this has been edited and renamed to Reject Island Dialogue)
+
+To Do:
+Quest system set-up with Dialogue System and some external do-dads
+Tablet UI system
+Animation system reconnected and possibly re-done (Tao and I will discuss)
+
+
+
+
+
+
+
