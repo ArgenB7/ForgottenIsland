@@ -62,8 +62,11 @@ Quest system set-up with Dialogue System and some external do-dads
 Tablet UI system
 Animation system reconnected and possibly re-done (Tao and I will discuss)
 
-PUSH 12 - 2/09/21 | Charlotte
+PUSH 12 - 23/09/21 | Charlotte
 Very quickly fixed up our camera! No other major changes
+
+PUSH 13 - 23/09/21 | Tanya
+Added some test animation sprites in environment
 
 
 
