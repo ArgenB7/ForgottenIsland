@@ -10,7 +10,7 @@ public class Scr_Screenshot : MonoBehaviour
     {
         if (Input.GetKeyDown("p"))
         {
-            print("space key was pressed");
+            print("p key was pressed");
             ScreenCapture.CaptureScreenshot(name+i+".png");
             i++;
         }
