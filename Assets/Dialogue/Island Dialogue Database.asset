@@ -82,7 +82,57 @@ MonoBehaviour:
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
-  items: []
+  items:
+  - id: 1
+    fields:
+    - title: Name
+      value: Example Quest
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Talk to both the Puca and Elwetrich before contining to town.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 2
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Entry 1
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Entry 2 State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Entry 2
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   locations: []
   variables:
   - id: 1
@@ -215,8 +265,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 334.14896
-        y: 138.14894
+        x: 319.86325
+        y: 131.55553
         width: 160
         height: 30
     - id: 1
@@ -293,7 +343,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 203.89362
-        y: 231.70212
+        y: 224.0098
         width: 160
         height: 30
     - id: 2
@@ -435,7 +485,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 305
-        y: 334
+        y: 332.90112
         width: 160
         height: 30
     - id: 6

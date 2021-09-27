@@ -20,42 +20,25 @@ public class AnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        /*
-        horiAxis = Input.GetAxis("Horizontal");
-
-        if(horiAxis < 0)
+        if (Input.GetAxis("Vertical") != 0)
         {
-            animator.SetBool("Flip", true);
             animator.SetBool("Walking", true);
-        } 
-        
-        else if (horiAxis > 0)
+        } else if (Input.GetAxis("Vertical") == 0)
         {
-            animator.SetBool("Flip", false);
-            animator.SetBool("Walking", true);
+            animator.SetBool("Walking", false);
         }
-        */
-
-        
 
         if (Input.GetKey(KeyCode.A))
         {
-            spriteRend.flipX = true;
+            spriteRend.flipX = false;
 
             animator.SetBool("Walking", true);
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
-            spriteRend.flipX = false;
+            spriteRend.flipX = true;
             animator.SetBool("Walking", true);
-        }
-        
-
-        else
-        {
-            animator.SetBool("Walking", false);
         }
     }
 }

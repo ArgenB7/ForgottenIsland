@@ -68,6 +68,16 @@ Very quickly fixed up our camera! No other major changes
 PUSH 13 - 23/09/21 | Tanya
 Added some test animation sprites in environment
 
+PUSH 14 - 27/09/21 | Charlotte
+Changed camera completely, now fixed with Cinemachine.
+Idle and walking animations in and functional. Camera also zooms on conversation start.
+
+To Do:
+Jump animation
+Possible control changes
+UI hookup (characters)
+Interaction UI change - characters and interactable objects
+Add interaction triggers for environment where needed
 
 
 
