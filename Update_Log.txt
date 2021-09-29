@@ -79,6 +79,10 @@ UI hookup (characters)
 Interaction UI change - characters and interactable objects
 Add interaction triggers for environment where needed
 
+PUSH 15 - 29/09/21 | Charlotte
+Added in colliders to stop tragic accidents
 
+To Do:
+See previous log, notion
 
 
