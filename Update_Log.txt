@@ -85,4 +85,6 @@ Added in colliders to stop tragic accidents
 To Do:
 See previous log, notion
 
-
+PUSH 16 - 29/09/21 | Tanya
+Added in environmental assets - bushes, updated shadows, updated ground texturing, grass, flowers, rocks
+Sliced up long road shadows
