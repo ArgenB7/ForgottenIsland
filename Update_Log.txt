@@ -91,3 +91,9 @@ Sliced up long road shadows
 
 PUSH 17 - 30/09/21 | Tanya
 Environment colliders
+
+PUSH 18 - 30/09/21 | Tao
+Added character idles
+
+PUSH 19 - 30/09/21 | Tao
+Added new booth asset
