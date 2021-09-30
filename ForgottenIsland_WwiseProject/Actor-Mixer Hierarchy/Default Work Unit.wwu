@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AirportBG" ID="{BB45EA19-5BF8-4DEC-B639-B63BD0932A83}" ShortID="170388899">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AirportBG" ID="{769DAEDC-69F8-4852-9FAD-C5F14BD0BA4D}">
+							<Language>SFX</Language>
+							<AudioFile>AirportBG.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="60408016"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="AirportBG" ID="{769DAEDC-69F8-4852-9FAD-C5F14BD0BA4D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" ShortID="848524704">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TownBG" ID="{AE3D7ED0-488D-4241-9FFA-9C62A627E6E7}">
+							<Language>SFX</Language>
+							<AudioFile>TownBG.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="21082195"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="TownBG" ID="{AE3D7ED0-488D-4241-9FFA-9C62A627E6E7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

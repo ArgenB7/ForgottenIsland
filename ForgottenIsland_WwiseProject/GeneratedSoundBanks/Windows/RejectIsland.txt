@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2592033178	PlayTownBG			\Default Work Unit\PlayTownBG	
+	2780011385	PlayAirportBG			\Default Work Unit\PlayAirportBG	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21082195	TownBG	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\TownBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownBG		9118668
+	60408016	AirportBG	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\AirportBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportBG		5622892
+

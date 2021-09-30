@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D050C1AD-8718-4D51-BA78-F9A5FE8C5D14}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D050C1AD-8718-4D51-BA78-F9A5FE8C5D14}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="RejectIsland" ID="{45A125FA-BEFB-4A0E-A12B-7BD4891600ED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayTownBG" ID="{349A5FF6-8C34-4162-A4DA-52AFAA10535C}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayAirportBG" ID="{494413A6-39AE-4C41-AC86-23E181F8E41C}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AirportBG" ID="{BB45EA19-5BF8-4DEC-B639-B63BD0932A83}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

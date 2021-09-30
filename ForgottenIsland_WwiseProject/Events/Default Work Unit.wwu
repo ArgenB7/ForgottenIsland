@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayAirportBG" ID="{494413A6-39AE-4C41-AC86-23E181F8E41C}">
+					<ChildrenList>
+						<Action Name="" ID="{29E36BE2-A90F-48B4-AD50-8EEAE39631B4}" ShortID="901366416">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AirportBG" ID="{BB45EA19-5BF8-4DEC-B639-B63BD0932A83}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayTownBG" ID="{349A5FF6-8C34-4162-A4DA-52AFAA10535C}">
+					<ChildrenList>
+						<Action Name="" ID="{C2B7F9E4-8FCA-4DB4-9AD0-BB1A75AE9513}" ShortID="384967033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

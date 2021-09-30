@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac99e3ec91a0cc045a5a96a0695d74a1, type: 3}
+  m_Name: 45A125FA-BEFB-4A0E-A12B-7BD4891600ED
+  m_EditorClassIdentifier: 
+  objectName: RejectIsland
+  id: 1042838587
+  guid: 45A125FA-BEFB-4A0E-A12B-7BD4891600ED

@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dedffb1bc2c91e4f9e7f1bf5cc989d0, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5f1a4e6edc5681458636f0d7531e5528
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 5f1a4e6edc5681458636f0d7531e5528
+    GuidInternal: 
+    m_lastTime: -8585686344377360128
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 943ef3efb719a24695c6072f05ecf642
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 943ef3efb719a24695c6072f05ecf642
+    GuidInternal: 
+    m_lastTime: -8585686344378160823
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 943ef3efb719a24695c6072f05ecf642
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: adc150d01887514dba78f9a5fe8c5d14
+    ParentPath: SoundBanks\Default Work Unit
+    guid: adc150d01887514dba78f9a5fe8c5d14
+    GuidInternal: 
+    m_lastTime: -8585686332497085910
+    List:
+    - name: RejectIsland
+      guid: fa25a145fbbe0e4aa12b7bd4891600ed
+      id: 1042838587
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc150d01887514dba78f9a5fe8c5d14
+      - ElementName: RejectIsland
+        ObjectType: 7
+        guid: fa25a145fbbe0e4aa12b7bd4891600ed
+      Path: SoundBanks\Default Work Unit\RejectIsland
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 67fd271e2370f945bae011b88bed2c74
+    ParentPath: Events\Default Work Unit
+    guid: 67fd271e2370f945bae011b88bed2c74
+    GuidInternal: 
+    m_lastTime: -8585686332497701449
+    List:
+    - name: PlayAirportBG
+      guid: a6134449ae39414cac8623e181f8e41c
+      id: 2780011385
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayAirportBG
+        ObjectType: 3
+        guid: a6134449ae39414cac8623e181f8e41c
+      Path: Events\Default Work Unit\PlayAirportBG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayTownBG
+      guid: f65f9a34348c6241a4da52afaa10535c
+      id: 2592033178
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayTownBG
+        ObjectType: 3
+        guid: f65f9a34348c6241a4da52afaa10535c
+      Path: Events\Default Work Unit\PlayTownBG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1100011d4b217948a6191d462d36c954
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 1100011d4b217948a6191d462d36c954
+    GuidInternal: 
+    m_lastTime: -8585686344378891449
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 60e63e5c78222244a90440898fafbe1f
+    ParentPath: States\Default Work Unit
+    guid: 60e63e5c78222244a90440898fafbe1f
+    GuidInternal: 
+    m_lastTime: -8585686344378956506
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5a19216bed22224a928e1c348bd0a6db
+    ParentPath: Switches\Default Work Unit
+    guid: 5a19216bed22224a928e1c348bd0a6db
+    GuidInternal: 
+    m_lastTime: -8585686344377880578
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8a0eb022be82f749969dd017852c7f5d
+    ParentPath: Triggers\Default Work Unit
+    guid: 8a0eb022be82f749969dd017852c7f5d
+    GuidInternal: 
+    m_lastTime: -8585686344378085757
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000001100000012000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 
