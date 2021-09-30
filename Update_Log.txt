@@ -88,3 +88,6 @@ See previous log, notion
 PUSH 16 - 29/09/21 | Tanya
 Added in environmental assets - bushes, updated shadows, updated ground texturing, grass, flowers, rocks
 Sliced up long road shadows
+
+PUSH 17 - 30/09/21 | Tanya
+Environment colliders
