@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 862b098d473044d88b036dac2319f747
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 769772047f5e0499b856839f1662a351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliffBase_MAT
+    second: {fileID: 2100000, guid: b540c4511dbdd4206a25ee01aca5d562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkGreen02_MAT
+    second: {fileID: 2100000, guid: e376f16ccbecf4ff9ba5a86123f80f21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkGreen_MAT
+    second: {fileID: 2100000, guid: 89727ead29d5a4d788e59bf31a173911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elweFlowersPink_MAT
+    second: {fileID: 2100000, guid: 1ea71830dd3724f63962e44273570b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_MAT
+    second: {fileID: 2100000, guid: df8495da6cdd740e19cfbc417197440a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hbDeckBlue_MAT
+    second: {fileID: 2100000, guid: 3374b3ca1dff54e6eaf6868c1b41a2ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hbPlantGreen_MAT
+    second: {fileID: 2100000, guid: 4d08d917ee69f477abea52b055d152b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseBeamOrange_MAT
+    second: {fileID: 2100000, guid: 6b5e1088ceeac4a85bae02ad54e37579, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseOffwhite01_MAT
+    second: {fileID: 2100000, guid: 774818894bcd44461a0994245e5a81bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseOffwhite02_MAT
+    second: {fileID: 2100000, guid: e10a0b508953249239a6988090ffbfa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseRoofOrangeDark_MAT
+    second: {fileID: 2100000, guid: 1a4875895d6014931bfc9e5e001667b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseRoofOrange_MAT
+    second: {fileID: 2100000, guid: a82ceb7b6bf1f41359860cd657978cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamBbbDoorUVTX_MAT
+    second: {fileID: 2100000, guid: c1231239f09bb4659949c2e59c723be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamBbbFrontWindowUVTX_MAT
+    second: {fileID: 2100000, guid: 102408e35fdd24bc29cd6d3d17954ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamBbbShadeUVTX_MAT
+    second: {fileID: 2100000, guid: 62c8ad43b12fe4705a255bc523cdfc36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamElweShuttersUVTX_MAT
+    second: {fileID: 2100000, guid: c2f5bb0838ca745109c7d42d8cd651af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamElweWeathervaneUVTX_MAT
+    second: {fileID: 2100000, guid: 2254de854fc044cc9b52435b15da4423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamHbDeckUVTX_MAT
+    second: {fileID: 2100000, guid: 6eb905b8a13044619a91d7aecdc1edce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamHbFrontUVTX_MAT
+    second: {fileID: 2100000, guid: 84a33abb42c8c48ffb42979e50664877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamHbSideUVTX_MAT
+    second: {fileID: 2100000, guid: 35b5bee8faf504b57a8230684a197338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamOfficeLogoUVTX_MAT
+    second: {fileID: 2100000, guid: d8d6ac8dbf7784ef197c390d99f7faf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamOfficeRoof02UVTX_MAT
+    second: {fileID: 2100000, guid: 5112f4b6b52674a2585bb0a71cfc8a8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamOfficeRoofUVTX_MAT
+    second: {fileID: 2100000, guid: 4a4311b8bac0a44e286def17a2d4b817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamOfficeSign01UVTX_MAT
+    second: {fileID: 2100000, guid: e330217dec355484ab3dd0e51275d5ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamSideWindowUVTX_MAT
+    second: {fileID: 2100000, guid: 3e25e643231b14706b2f1f9a15ffe14b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamSqMudPatchUVTX_MAT
+    second: {fileID: 2100000, guid: 7029037196dc54c9a80eb4a5c1ecc864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1467c8afc7067452c9b2e69e77c42c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeBlue02EXT_MAT
+    second: {fileID: 2100000, guid: 6ddc26e129c91404993dc3f4bae67c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeBlueBase01T_MAT
+    second: {fileID: 2100000, guid: 06e8db613483a4fc9b965f4d5e37aeb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeBlueEXT_MAT
+    second: {fileID: 2100000, guid: 08c6876f5b0b741f8bc12bb1cc866cac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeDarkBlue_MAT
+    second: {fileID: 2100000, guid: 0efea61bf239641b5b06ea3a7b1f3959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeLightBlue_MAT
+    second: {fileID: 2100000, guid: c9aad53aa5e4141e7986c792375313c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeMidBlue_MAT
+    second: {fileID: 2100000, guid: 59d1285401c9d43d598b08a2b1216f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeRoofPaleBlue_MAT
+    second: {fileID: 2100000, guid: 2572f1e8c00fb4447accb3d13de69ed1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orangeDark_MAT
+    second: {fileID: 2100000, guid: 4950905f7c63946928f5619c67e300e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orangeRed_MAT
+    second: {fileID: 2100000, guid: 054d6cc9926934cb1ab87c1c66f78db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange_MAT
+    second: {fileID: 2100000, guid: 038a75ecfdd594426990ba615b8c3e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plantGreen_MAT
+    second: {fileID: 2100000, guid: 5c6c8582b5aa443b69bd7c9e7daf70e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofDarkGreen_MAT
+    second: {fileID: 2100000, guid: d8f3404eb631e4338a1e596d484f653d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofGreen_MAT
+    second: {fileID: 2100000, guid: 304a1b80649c24799b8427c5278d29d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofMidGreen_MAT
+    second: {fileID: 2100000, guid: 65ebc5101f2d14a9193ed047f6de4241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoneLight_MAT
+    second: {fileID: 2100000, guid: 82e19995c452746bab48d24e70f08b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoneMID_MAT
+    second: {fileID: 2100000, guid: a7a0e903f1cb640da81c31e45de30121, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teal_MAT
+    second: {fileID: 2100000, guid: 625c5a483e53f4715aa9c4d781a1f875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_MAT
+    second: {fileID: 2100000, guid: eee09849016704e26b0eeebef14896d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_MAT
+    second: {fileID: 2100000, guid: 1e7cc93d6c0c7441891a8b545f8d0cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowOrange_MAT
+    second: {fileID: 2100000, guid: 5163a8735dc94437fa579c093309c91f, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

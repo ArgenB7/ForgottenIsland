@@ -55,6 +55,19 @@
   <ItemGroup>
     <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs" />
+    <Compile Include="Assets/FlatKit/Utils/Readme/Editor/ReadmeEditor.cs" />
+    <Compile Include="Assets/FlatKit/Utils/Readme/Editor/FlatKitReadme.cs" />
+    <Compile Include="Assets/FlatKit/Utils/Readme/Editor/NetworkManager.cs" />
+    <Compile Include="Assets/FlatKit/Demos/Common/Scripts/Motion/Editor/LinearMotionEditor.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/Water/Editor/Tooltips.cs" />
+    <Compile Include="Assets/FlatKit/Shaders/Editor/Tooltips.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/Water/Editor/WaterEditor.cs" />
+    <Compile Include="Assets/FlatKit/Shaders/GradientSkybox/Editor/GradientSkyboxEditor.cs" />
+    <Compile Include="Assets/FlatKit/Shaders/Editor/StylizedSurfaceEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/DOTween/Editor/DOTweenEditor.dll" />
+    <None Include="Assets/DOTween/Editor/DOTweenEditor.XML" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -291,17 +304,23 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>Assets/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.5.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.5.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
@@ -822,29 +841,21 @@
       <Project>{86125463-717E-C43D-68E2-125C3C1FB5BE}</Project>
       <Name>Ink-Libraries</Name>
     </ProjectReference>
-    <ProjectReference Include="InkEditor.csproj">
-      <Project>{BB9365D6-311D-1CE3-00E6-8D221DC44C82}</Project>
-      <Name>InkEditor</Name>
+    <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
+      <Project>{D8C78D50-6B61-F167-DC4E-3205DBBD9117}</Project>
+      <Name>AK.Wwise.Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
       <Project>{4DFC7673-4AFD-8EE9-E190-BCC56F99B9B4}</Project>
       <Name>Ak.Wwise.Api.WAAPI</Name>
     </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
-      <Project>{767E87C5-09C4-26BF-6D09-6E122BE26863}</Project>
-      <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
-    </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
-      <Project>{D8C78D50-6B61-F167-DC4E-3205DBBD9117}</Project>
-      <Name>AK.Wwise.Unity.Timeline.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Editor.csproj">
       <Project>{89F3BCA2-866E-0F65-AB73-08E702B3B884}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
-      <Project>{6E69E602-7669-2B1E-7CD8-5B110100C52F}</Project>
-      <Name>AK.Wwise.Unity.API.Editor</Name>
+    <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
+      <Project>{767E87C5-09C4-26BF-6D09-6E122BE26863}</Project>
+      <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
       <Project>{A4FCA8CD-9D24-97AF-8A7D-DDE50442BDC0}</Project>
@@ -857,6 +868,14 @@
     <ProjectReference Include="AK.Wwise.Unity.API.csproj">
       <Project>{269D6FDD-3CEB-8206-6E1F-861263FFCD8F}</Project>
       <Name>AK.Wwise.Unity.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="InkEditor.csproj">
+      <Project>{BB9365D6-311D-1CE3-00E6-8D221DC44C82}</Project>
+      <Name>InkEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
+      <Project>{6E69E602-7669-2B1E-7CD8-5B110100C52F}</Project>
+      <Name>AK.Wwise.Unity.API.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
