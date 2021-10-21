@@ -53,18 +53,24 @@
     <UnityVersion>2020.3.15f2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets/FlatKit/Demos/Common/Scripts/Motion/OrbitMotion.cs" />
     <Compile Include="Assets/Scripts/KeyLook.cs" />
+    <Compile Include="Assets/FlatKit/Scripts/UvScroller.cs" />
     <Compile Include="Assets/Controllers/First Person Drifter Controller/Scripts/MouseLook.cs" />
+    <Compile Include="Assets/FlatKit/Demos/Common/Scripts/Motion/LinearMotion.cs" />
     <Compile Include="Assets/Scripts/VC_Switcher.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleSprite.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FogSettings.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets/Scripts/Scr_Screenshot.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FlatKitFog.cs" />
     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/TMPInkExample.cs" />
     <Compile Include="Assets/Scripts/TestInteraction.cs" />
     <Compile Include="Assets/Scripts/toggleTablet.cs" />
     <Compile Include="Assets/Scripts/AnimationController.cs" />
     <Compile Include="Assets/Controllers/First Person Drifter Controller/Scripts/FirstPersonDrifter.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Outline/FlatKitDepthNormals.cs" />
     <Compile Include="Assets/Scripts/DestroySelf.cs" />
     <Compile Include="Assets/Controllers/First Person Drifter Controller/Scripts/Utils/CameraFade.cs" />
     <Compile Include="Assets/Controllers/FirstPersion AIO Pack/FirstPersonAIO/FirstPersonAIO.cs" />
@@ -72,23 +78,19 @@
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleAudio.cs" />
     <Compile Include="Assets/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Outline/FlatKitOutline.cs" />
+    <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModulePhysics.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/Water/Scripts/Buoyancy.cs" />
     <Compile Include="Assets/Scripts/DatabaseCreate.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Outline/OutlineSettings.cs" />
+    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Common/ShaderIncludeUtilities.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/PauseMenu.cs" />
     <Compile Include="Assets/Controllers/First Person Drifter Controller/Scripts/LockMouse.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleUI.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Outline/FlatKitOutline.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Common/ShaderIncludeUtilities.cs" />
-    <Compile Include="Assets/FlatKit/Demos/Common/Scripts/Motion/OrbitMotion.cs" />
-    <Compile Include="Assets/FlatKit/Demos/Common/Scripts/Motion/LinearMotion.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FogSettings.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Outline/OutlineSettings.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/Water/Scripts/Buoyancy.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Outline/FlatKitDepthNormals.cs" />
-    <Compile Include="Assets/FlatKit/Scripts/UvScroller.cs" />
-    <Compile Include="Assets/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FlatKitFog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
