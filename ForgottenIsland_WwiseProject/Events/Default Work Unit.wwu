@@ -25,6 +25,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayWave" ID="{63F0BE24-3791-469E-8AAD-259CCB779C86}">
+					<ChildrenList>
+						<Action Name="" ID="{C7AF3B5A-838E-4D56-808A-160B47D49005}" ShortID="970821236">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AirportWave" ID="{B0E43D24-F9EA-4487-A961-EE8535C71D1E}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayClick" ID="{A766A0E5-4705-426E-B3D7-D1E3170DA37E}">
+					<ChildrenList>
+						<Action Name="" ID="{52CE9B98-9BAF-4561-8568-8692DC00D5CD}" ShortID="376422461">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClickInteract" ID="{54ADE82E-B942-44BB-A1D9-3493CAEAAA62}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayNotification" ID="{C13A3ABB-FD87-4CFF-B6AF-643D9D2CEA9F}">
+					<ChildrenList>
+						<Action Name="" ID="{F8169521-AD87-456D-BDB5-E23317CD6DE2}" ShortID="56796001">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NotificationSound" ID="{8AFF5D91-3CBD-469A-83DC-A6AE53383167}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

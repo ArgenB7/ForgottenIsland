@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAYAIRPORTBG = 2780011385U;
         static const AkUniqueID PLAYTOWNBG = 2592033178U;
+        static const AkUniqueID PLAYWAVE = 1996670036U;
     } // namespace EVENTS
 
     namespace BANKS

@@ -11,6 +11,11 @@
 								<Value>6</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -172,7 +177,7 @@
 						<ActiveSource Name="TownBG" ID="{AE3D7ED0-488D-4241-9FFA-9C62A627E6E7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound1" ID="{261A3BC9-BA27-4444-BB3D-4449BB6C26AC}" ShortID="613736722">
+				<Sound Name="Tuesday1" ID="{261A3BC9-BA27-4444-BB3D-4449BB6C26AC}" ShortID="613736722">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -195,7 +200,7 @@
 						<ActiveSource Name="Jay Character Sound 1" ID="{0E1C6A65-5E85-432D-BFC0-E14BB0DB19FB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound2" ID="{E3754F0F-2284-4EE1-AB88-A3DD3DA6A2AC}" ShortID="1005476180">
+				<Sound Name="Tuesday2" ID="{E3754F0F-2284-4EE1-AB88-A3DD3DA6A2AC}" ShortID="1005476180">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -218,7 +223,7 @@
 						<ActiveSource Name="Jay Character Sound 2" ID="{9B1C265E-E48D-4326-8725-DDDCFD37A41D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound3" ID="{A468CE9A-356D-41EA-9ECB-1F4E0B5E88CE}" ShortID="914659878">
+				<Sound Name="Tuesday3" ID="{A468CE9A-356D-41EA-9ECB-1F4E0B5E88CE}" ShortID="914659878">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -241,7 +246,7 @@
 						<ActiveSource Name="Jay Character Sound 3" ID="{9A247DF7-CC81-47DD-BFE2-468B9869031F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound4" ID="{404EDBFB-C58E-4665-8C94-F70594E74D05}" ShortID="906963827">
+				<Sound Name="Tuesday4" ID="{404EDBFB-C58E-4665-8C94-F70594E74D05}" ShortID="906963827">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -264,7 +269,7 @@
 						<ActiveSource Name="Jay Character Sound 4" ID="{692392A8-330F-475A-ABCA-AB7F30FAF96D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound5" ID="{7DCD9198-2931-4E7F-9283-501DBB976745}" ShortID="183140007">
+				<Sound Name="Tuesday5" ID="{7DCD9198-2931-4E7F-9283-501DBB976745}" ShortID="183140007">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -287,7 +292,7 @@
 						<ActiveSource Name="Jay Character Sound 5" ID="{F0DF7BB1-BFAF-41DB-8DDE-DCA4A1D4B413}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound6" ID="{95BF5838-4EB3-47BA-B38A-E3A4BB45C1B2}" ShortID="213571416">
+				<Sound Name="Puca6" ID="{95BF5838-4EB3-47BA-B38A-E3A4BB45C1B2}" ShortID="213571416">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -310,7 +315,7 @@
 						<ActiveSource Name="Jay Character Sound 6" ID="{FA31C7FF-6832-467E-92FF-929DC63E1AF3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound7" ID="{E43E0518-DCB0-4C4C-9A55-2FB476E317BA}" ShortID="701719622">
+				<Sound Name="Puca7" ID="{E43E0518-DCB0-4C4C-9A55-2FB476E317BA}" ShortID="701719622">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -333,7 +338,7 @@
 						<ActiveSource Name="Jay Character Sound 7" ID="{0F59D7A2-5705-4E83-B9BD-ED8DF8D46572}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound8" ID="{12174F97-D7A1-4EFC-A3CB-22FD8C9D8583}" ShortID="362055693">
+				<Sound Name="Puca8" ID="{12174F97-D7A1-4EFC-A3CB-22FD8C9D8583}" ShortID="362055693">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -356,7 +361,7 @@
 						<ActiveSource Name="Jay Character Sound 8" ID="{584AB0CB-61A8-4444-ADD0-450A3F30624A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound9" ID="{6A6286EE-5EBE-4E79-922E-B787B873080C}" ShortID="666471835">
+				<Sound Name="Puca9" ID="{6A6286EE-5EBE-4E79-922E-B787B873080C}" ShortID="666471835">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -379,10 +384,13 @@
 						<ActiveSource Name="Jay Character Sound 9" ID="{EBCEA510-9633-4BB8-8F83-1EF5FCC1DD10}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound10" ID="{5400835F-6C60-4EE1-867A-6D909E80367E}" ShortID="508983616">
+				<Sound Name="Puca10" ID="{5400835F-6C60-4EE1-867A-6D909E80367E}" ShortID="508983616">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+							<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
@@ -402,30 +410,7 @@
 						<ActiveSource Name="Jay Character Sound 10" ID="{47BB8369-1ABA-4680-8942-F1BB30051A15}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound11" ID="{351C1558-C2C3-45B5-AD4C-E9D6B14588FA}" ShortID="571296482">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Jay Character Sound 11" ID="{8E96A8AB-317B-4122-8BC2-AA10B180ACDB}">
-							<Language>SFX</Language>
-							<AudioFile>Jay Character Sound 11.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="407545487"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Jay Character Sound 11" ID="{8E96A8AB-317B-4122-8BC2-AA10B180ACDB}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="CharSound12" ID="{4373AC19-2783-4E81-82F9-701B738CD09C}" ShortID="59584608">
+				<Sound Name="Puca12" ID="{4373AC19-2783-4E81-82F9-701B738CD09C}" ShortID="59584608">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -448,7 +433,7 @@
 						<ActiveSource Name="Jay Character Sound 12" ID="{B88997A4-6050-45CF-A195-F6D5E2995A58}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound13" ID="{BE09C53B-6134-41B2-AC68-35E2EDAE4ABB}" ShortID="590233510">
+				<Sound Name="Puca13" ID="{BE09C53B-6134-41B2-AC68-35E2EDAE4ABB}" ShortID="590233510">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -471,7 +456,7 @@
 						<ActiveSource Name="Jay Character Sound 13" ID="{6630143F-DADC-4B22-B455-F66B08227C82}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound14" ID="{C0858BCA-2950-4C44-A8D7-06DD5C64E012}" ShortID="905194551">
+				<Sound Name="Tuesday14" ID="{C0858BCA-2950-4C44-A8D7-06DD5C64E012}" ShortID="905194551">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -494,7 +479,7 @@
 						<ActiveSource Name="Jay Character Sound 14" ID="{0B3A3CD7-F7CC-4C47-BF17-7F8B2371BBAC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound15" ID="{CB4FCE71-597F-480D-A599-4673F80C49EC}" ShortID="322735786">
+				<Sound Name="Tuesday15" ID="{CB4FCE71-597F-480D-A599-4673F80C49EC}" ShortID="322735786">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -517,7 +502,7 @@
 						<ActiveSource Name="Jay Character Sound 15" ID="{5442CA00-E5DF-4F9B-A72B-36F864786C26}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound16" ID="{D3AA6380-0ACE-41E8-AEF6-4E6DCA688DD0}" ShortID="646305153">
+				<Sound Name="Tuesday16" ID="{D3AA6380-0ACE-41E8-AEF6-4E6DCA688DD0}" ShortID="646305153">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -540,7 +525,14 @@
 						<ActiveSource Name="Jay Character Sound 16" ID="{F1D1BE8E-C019-4B09-A75C-976B2CD236E3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CharSound17" ID="{0D787166-233F-4425-A323-F49661FE9CA7}" ShortID="97529751">
+				<Sound Name="Tuesday17" ID="{0D787166-233F-4425-A323-F49661FE9CA7}" ShortID="97529751">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
@@ -561,6 +553,448 @@
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Jay Character Sound 17" ID="{2267D128-FEA6-424C-93CE-20AD9876547A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AirportWave" ID="{B0E43D24-F9EA-4487-A961-EE8535C71D1E}" ShortID="30206810">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{91FA421D-C662-4568-9BB4-E52340137E9F}" ShortID="1068780242">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{D0446E03-1CC5-4D69-814C-5623CE697B86}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="463250__suburbanwizard__beach-waves-04(1)" ID="{97396202-7F74-4732-8C95-3E8EC2D3BE3A}">
+							<Language>SFX</Language>
+							<AudioFile>463250__suburbanwizard__beach-waves-04(1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="658602955"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="463250__suburbanwizard__beach-waves-04(1)" ID="{97396202-7F74-4732-8C95-3E8EC2D3BE3A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ClickInteract" ID="{54ADE82E-B942-44BB-A1D9-3493CAEAAA62}" ShortID="175869335">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="256116__kwahmah-02__click(1)" ID="{022EEE47-0262-4AF9-8E8F-B9EFDA8353A4}">
+							<Language>SFX</Language>
+							<AudioFile>256116__kwahmah-02__click(1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1002609722"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="256116__kwahmah-02__click(1)" ID="{022EEE47-0262-4AF9-8E8F-B9EFDA8353A4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="NotificationSound" ID="{8AFF5D91-3CBD-469A-83DC-A6AE53383167}" ShortID="36065454">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Space_Dreaming" ID="{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="570243__bluetshirt__point-in-space" ID="{9006E4C9-E5C7-4041-9BCF-29C740919C62}">
+							<Language>SFX</Language>
+							<AudioFile>570243__bluetshirt__point-in-space.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="923864170"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="570243__bluetshirt__point-in-space" ID="{9006E4C9-E5C7-4041-9BCF-29C740919C62}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan4" ID="{1DD68544-06BA-4E2F-A25A-838D5BDF345A}" ShortID="507577923">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 4" ID="{9162ED8B-A89F-4AEC-A77E-52D94FE9C679}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="573024912"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 4" ID="{9162ED8B-A89F-4AEC-A77E-52D94FE9C679}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan15" ID="{38544AE1-B7DA-404A-ADDC-B61E18370465}" ShortID="2308422">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 15" ID="{9FA8F973-C2D3-4D8A-BAF4-F1AFF5277068}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 15.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="909180189"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 15" ID="{9FA8F973-C2D3-4D8A-BAF4-F1AFF5277068}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan5" ID="{4C86F87E-5C29-4A9E-8305-C3DC03620E65}" ShortID="652492312">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 5" ID="{0B3A97A0-3BB2-4A7C-B86E-A77A1D228EEE}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 5.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="519225359"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 5" ID="{0B3A97A0-3BB2-4A7C-B86E-A77A1D228EEE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan2" ID="{AFE0BD99-39E4-4D51-BAB3-9CF6D3F60B14}" ShortID="755742512">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 2" ID="{1E530596-4221-48FB-BBFA-2F028A8056C8}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="557073169"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 2" ID="{1E530596-4221-48FB-BBFA-2F028A8056C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan1" ID="{50FA8622-6C9A-4281-8121-1BD3CCBC54FE}" ShortID="709131197">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 1" ID="{8369D08A-EE84-469F-8C7D-73F3F181FA53}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="489403324"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 1" ID="{8369D08A-EE84-469F-8C7D-73F3F181FA53}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan17" ID="{138E0822-6351-4296-BC5D-6A1893E03AC6}" ShortID="634261925">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 17" ID="{E9CA5147-5E06-4E76-A4A7-4EC2F3259E54}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 17.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="357562468"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 17" ID="{E9CA5147-5E06-4E76-A4A7-4EC2F3259E54}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan3" ID="{A6232E77-80B4-4971-B960-8C03CB3FD883}" ShortID="453148083">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 3" ID="{AF9A96F1-AD78-416E-91B3-C1E90F94CD87}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="910391791"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 3" ID="{AF9A96F1-AD78-416E-91B3-C1E90F94CD87}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan14" ID="{F631A6E7-C820-4C45-ACB9-2681E3593BF3}" ShortID="461886053">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 14" ID="{DA161A5A-7080-464F-B921-555F7B7BA80F}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 14.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="806258912"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 14" ID="{DA161A5A-7080-464F-B921-555F7B7BA80F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Penanggalan16" ID="{CEB92655-4AE4-4D4E-A56C-26C0895931C1}" ShortID="759522739">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DB1FF3AE-884F-4276-A957-C3D6F7BD2883}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EFF33E94-19B7-46A2-95C6-072F05ECF642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Jay Character Sound 16" ID="{81C13E23-9658-4D39-8B1A-7CAE57157F86}">
+							<Language>SFX</Language>
+							<AudioFile>Jay Character Sound 16.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="169704829"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Jay Character Sound 16" ID="{81C13E23-9658-4D39-8B1A-7CAE57157F86}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
