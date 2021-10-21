@@ -105,3 +105,11 @@ PUSH 21 - 19/10/21 | Tanya
 Added re-textured town basic terrain and main buildings
 Some model and texture placeholders need an art pass
 Imported FlatKit shader package
+
+PUSH 22 - 21/1-/2021 | Charlotte
+Added quests and have a basic example working. Overhaul of UI + various fixes underway. Slightly re-styled menu.
+
+To Do:
+UI, Dialog, Bug Squashing
+
+

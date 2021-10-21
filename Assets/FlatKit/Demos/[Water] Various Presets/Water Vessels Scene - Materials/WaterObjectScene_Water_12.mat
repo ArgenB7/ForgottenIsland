@@ -27,8 +27,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -86,15 +87,15 @@ Material:
     - _Depth: 100
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FadeDistance: -2.45
-    - _FoamAmount: 0.16
+    - _FadeDistance: -2.87
+    - _FoamAmount: 0.22
     - _FoamDepth: 0.72
     - _FoamDirection: -0.73
     - _FoamFromTexture: 1
     - _FoamMode: 1
     - _FoamNoiseAmount: 1
     - _FoamProcedural: 1
-    - _FoamScale: 0.14
+    - _FoamScale: 0.69
     - _FoamSharpness: 0.98
     - _FoamSpeed: 1
     - _FoamStretchX: 1
@@ -104,8 +105,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightContribution: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _Opaque: 0
     - _ProceduralFoam: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -126,7 +129,7 @@ Material:
     - _UvFadeX: 0.1
     - _UvFadeY: 0.1
     - _WaterClearness: 0.01
-    - _WaterDepth: 12.68
+    - _WaterDepth: 14.09
     - _WaveAmplitude: 0
     - _WaveDirection: 0
     - _WaveFrequency: 32.52
@@ -134,7 +137,7 @@ Material:
     - _WaveNoise: 0.25
     - _WaveSpeed: 1
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 1, b: 0.7287984, a: 1}
