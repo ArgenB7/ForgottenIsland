@@ -52,6 +52,10 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: Tuesday
+      type: 0
+      typeString: 
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -251,6 +255,12 @@ MonoBehaviour:
         originDialogueID: 0
         destinationConversationID: 1
         destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 0
+        destinationConversationID: 1
+        destinationDialogueID: 43
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2591,6 +2601,110 @@ MonoBehaviour:
         y: 2295.3953
         width: 160
         height: 30
+    - id: 43
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Hi, I'm just for testing
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 43
+        destinationConversationID: 1
+        destinationDialogueID: 44
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 599.4909
+        y: 167.3871
+        width: 160
+        height: 30
+    - id: 44
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: No worries, thanks!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: ShowAlert("Testing Alerts!")
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 599.4909
+        y: 284.3974
+        width: 160
+        height: 30
     entryGroups:
     - name: Puca Introduction
       rect:
@@ -2600,8 +2714,8 @@ MonoBehaviour:
         width: 427.31464
         height: 2232.573
       color: {r: 0, g: 0, b: 0, a: 0.5}
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.0000001
+    canvasScrollPosition: {x: 122.68039, y: 0}
+    canvasZoom: 0.97000015
   - id: 2
     fields:
     - title: Title
@@ -4445,6 +4559,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: c2c4aa4a-5592-4b30-90b3-0b2c79bd336a
+        type: 0
+        typeString: 
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -4473,35 +4591,35 @@ MonoBehaviour:
         width: 237.84152
         height: 1664.1539
       color: {r: 0, g: 0, b: 0, a: 0.5}
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.52000046
+    canvasScrollPosition: {x: 0, y: 954.22845}
+    canvasZoom: 0.4300004
   - id: 3
     fields:
     - title: Title
       value: Objects
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Actor
       value: 1
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: 2
+      value: 1
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
       useOverrides: 0
-      overrideSubtitleSettings: 0
+      overrideSubtitleSettings: 1
       showNPCSubtitlesDuringLine: 1
       showNPCSubtitlesWithResponses: 1
       showPCSubtitlesDuringLine: 0
       skipPCSubtitleAfterResponseMenu: 0
       subtitleCharsPerSecond: 30
-      minSubtitleSeconds: 2
+      minSubtitleSeconds: 3
       continueButton: 0
       overrideSequenceSettings: 0
       defaultSequence: 
@@ -4534,7 +4652,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -4570,40 +4688,40 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 479
-        y: 126
+        x: 404
+        y: 105
         width: 160
         height: 30
     - id: 1
       fields:
       - title: Title
-        value: 
+        value: Spotted
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
-        value: 
+        value: Spotted
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Someone left their pet rock here...
+        value: A lonely pet rock, abandoned...
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -4625,8 +4743,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 339
-        y: 221
+        x: 286
+        y: 177
         width: 160
         height: 30
     - id: 2
@@ -4634,33 +4752,88 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Description
-        value: 
+        value: Database
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Actor
         value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Dialogue Text
         value: Might as well add it to the database
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Sequence
         value: 
         type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 2
+        destinationConversationID: 3
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 286
+        y: 245
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
         value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 624a2863-bf89-48e1-b91a-de1745595efa
         type: 0
         typeString: 
       conversationID: 3
@@ -4672,14 +4845,14 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: Item["Pet_Rock"].Collected = true
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 326
-        y: 302
+        x: 284
+        y: 311
         width: 160
         height: 30
     entryGroups: []

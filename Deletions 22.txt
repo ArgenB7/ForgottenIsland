@@ -1,0 +1,47 @@
+Assets/Prefabs/UI
+Basic Standard Dialogue UI Edited
+Tablet UI 1
+Tablet UI
+JRPG Template Standard Dialogue UI 1
+JRPG Template Standard Dialogue UI 2
+JRPG Template Standard Dialogue UI 3
+JRPG Template Standard Dialogue UI 4
+JRPG Template Standard Dialogue UI 5
+Bubble Template Standard UI Subtitle Panel EDit
+
+Assets/Textures
+Wiggly Bubblr
+Wiggly2
+Test.png
+TabletBG
+TabletBGWider
+Wiggly_Puca
+Wigly_Tuesday
+character_femaleAdventurer_sheetHD
+
+Bubbles (Folder, delete all)
+
+There should be no files directly in Textures, all should be in folders.
+
+Assets/Scenes
+Airport - Assets Added
+Airport
+Test Block Out
+Town - Greybox
+SampleScene
+SampleSceneLightingSettings
+
+You should only have:
+> Airport - Week 10
+> MainMenu
+> Town - Week 14
+
+Assets/Dialogue
+Airstrip - Introduction
+Island Dialogue Database
+Island Dialogue Database (Auto-Backup)
+PUCA 1
+
+You should only have:
+> Reject Island Database
+> Reject Island Database (Auto-Backup)
