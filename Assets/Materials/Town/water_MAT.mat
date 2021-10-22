@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: water_MAT
-  m_Shader: {fileID: 4800000, guid: efcaf526ceb1f4efd9eb4e4c30c6ade6, type: 3}
-  m_ShaderKeywords: _COLORMODE_LINEAR _FOAMMODE_TEXTURE _OPAQUE_OFF _WAVEMODE_NONE
+  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -145,7 +145,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.3843137, g: 0.85634565, b: 0.9137255, a: 0.71612906}
+    - _BaseColor: {r: 0.5492168, g: 0.91637003, b: 0.9622642, a: 0.71612906}
     - _Color: {r: 0.3672, g: 0.6955, b: 0.8143, a: 0.71612906}
     - _ColorDeep: {r: 0.65, g: 0.9, b: 1, a: 1}
     - _ColorShallow: {r: 0.34999996, g: 0.6, b: 0.75, a: 0.8}

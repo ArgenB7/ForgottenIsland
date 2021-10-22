@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 43b6d35608fb1400db561f5073f71032
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 117452720ce24458a9f1371975091cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caveBush_MAT
+    second: {fileID: 2100000, guid: a4cbc3dbe37124c9d84ecf3efc5f72a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliffBase_MAT
+    second: {fileID: 2100000, guid: 04c89c01372b44222a1a01e46aa3c765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkGreen02_MAT
+    second: {fileID: 2100000, guid: c87278a9e3b45400983734b5ab16b439, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkGreen_MAT
+    second: {fileID: 2100000, guid: 1ccdb308a04014c13874d7635228cd3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_MAT
+    second: {fileID: 2100000, guid: e341b197a52384c67af378957bb8dd55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hbDeckBlue_MAT
+    second: {fileID: 2100000, guid: ef78faaf9f1464d04b213523f72e8c49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseOffwhite01_MAT
+    second: {fileID: 2100000, guid: 77aec9441430c4408809dbfb528611f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseOffwhite02_MAT
+    second: {fileID: 2100000, guid: c4b85e7baf17d46a7b77667a03d5007d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houseRoofOrangeDark_MAT
+    second: {fileID: 2100000, guid: af526c513d1d843bba0cd9cad4fddd66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: officeRoofPaleBlue_MAT
+    second: {fileID: 2100000, guid: b55a0d67881e7463c8a7b489883fbc9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orangeRed_MAT
+    second: {fileID: 2100000, guid: 28c3df0a2985c4264829470657a80182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange_MAT
+    second: {fileID: 2100000, guid: 9350f01663f8f46a9ad17a9ff792819f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__buildingPostOrangeTRS_MAT
+    second: {fileID: 2100000, guid: b88f600c48e074a7785a3094347168e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__buildingPostOrange_MAT
+    second: {fileID: 2100000, guid: c120ffcaa62274e9b84d762771f6c574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__bulidingRoof_MAT
+    second: {fileID: 2100000, guid: 67097274d08874ccdad745698de35cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__cliffBase_MAT
+    second: {fileID: 2100000, guid: 003fb512840f049158323e020ead299e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pathUVTX_MAT
+    second: {fileID: 2100000, guid: e87fe86259b244df9ae0887b7dca2a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plantGreen_MAT
+    second: {fileID: 2100000, guid: c7669e67038194374bfaac0bdbc61450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rockBlueDARKER_MAT
+    second: {fileID: 2100000, guid: c60dd5cf276a04bb3b7d3a724b45a82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rockBlueLIGHT_MAT
+    second: {fileID: 2100000, guid: 6ce93d1df5d64436590213e8ea81a9e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofDarkGreen_MAT
+    second: {fileID: 2100000, guid: 10a85fd0a3a6944b69db0a3d1963fc26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofMidGreen_MAT
+    second: {fileID: 2100000, guid: 2b3bf7a129ab34a2da99863fb4c92cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teal_MAT
+    second: {fileID: 2100000, guid: 099362966c5bd46438dd4d9457b943e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: townSignUVTX_MAT
+    second: {fileID: 2100000, guid: 7838984b4ae3e4155968866022f69434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treeHeartUVTX_MAT
+    second: {fileID: 2100000, guid: 8a1e38a66502f438096c42869106fbff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treeSignUVTX_MAT
+    second: {fileID: 2100000, guid: b0a078f65dc4e4445a07b7b73bd6626f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowOrange_MAT
+    second: {fileID: 2100000, guid: ec3a5c0a8b275471f8c85babe762efec, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

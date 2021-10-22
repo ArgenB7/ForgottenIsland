@@ -124,3 +124,6 @@ Fixed and implemented dialogue bubbles. Restlyed and implemented UI (quests, con
 PUSH 25 - 22/10/2021 | Charlotte
 Fixed the merge conflicts I made like a dope. Sorry :/
 
+PUSH 26 - 23/10/2021 | Tanya
+Imported and re-textured additional town assets
+
