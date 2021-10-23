@@ -133,5 +133,5 @@ Placed bushes and trees in town scene and re-textured some assets
 PUSH 28 - 23/10/2021 | Charlotte
 Fixed Database bugs, added in new dialogue, character bubbles. Added in Tao's animation files.
 
-PUSH 29 - 23/10/2021 | Charlotte
-Scene transitions in and working for all bar Office. Town and Cave have NPCS - not yet set up with scripts. Please note issues with terrain in town - floating cobblestone and paths.
+PUSH 30 - 23/10/2021 | Tanya
+Uploaded terrain fix, flattened some floating objects
