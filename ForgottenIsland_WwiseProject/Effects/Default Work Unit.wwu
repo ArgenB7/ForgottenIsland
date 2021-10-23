@@ -4,6 +4,11 @@
 		<WorkUnit Name="Default Work Unit" ID="{09E8775D-98A6-4E17-B593-EC31F0387C76}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="New_Wwise_Time_Stretch" ID="{B8BECAAC-BF55-4CF0-A3BB-D432586346A8}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3"/>
+				<Effect Name="New_Wwise_Recorder" ID="{C542F9D5-43DF-4DD0-A510-9392DA12F7A1}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AuthoringFilename" Type="string" Value="E:\RMIT\2021\GDS 6\Wwise Mixed Character Sounds\Penanggalan9.wav"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

@@ -6,28 +6,20 @@
 				<SoundBank Name="RejectIsland" ID="{45A125FA-BEFB-4A0E-A12B-7BD4891600ED}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayTownBG" ID="{349A5FF6-8C34-4162-A4DA-52AFAA10535C}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca13" ID="{BE09C53B-6134-41B2-AC68-35E2EDAE4ABB}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday16" ID="{D3AA6380-0ACE-41E8-AEF6-4E6DCA688DD0}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday3" ID="{A468CE9A-356D-41EA-9ECB-1F4E0B5E88CE}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayClick" ID="{A766A0E5-4705-426E-B3D7-D1E3170DA37E}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday17" ID="{0D787166-233F-4425-A323-F49661FE9CA7}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday1" ID="{261A3BC9-BA27-4444-BB3D-4449BB6C26AC}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayClickRegular" ID="{A766A0E5-4705-426E-B3D7-D1E3170DA37E}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CaveDrip" ID="{D06312D1-793C-4466-8879-9D836E9B7444}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AirportWave" ID="{B0E43D24-F9EA-4487-A961-EE8535C71D1E}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ClickInteract" ID="{54ADE82E-B942-44BB-A1D9-3493CAEAAA62}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday4" ID="{404EDBFB-C58E-4665-8C94-F70594E74D05}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClickRegular" ID="{54ADE82E-B942-44BB-A1D9-3493CAEAAA62}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayCaveDrip" ID="{2282FE5F-66BB-4513-8576-D7790F982920}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWave" ID="{63F0BE24-3791-469E-8AAD-259CCB779C86}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca6" ID="{95BF5838-4EB3-47BA-B38A-E3A4BB45C1B2}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday15" ID="{CB4FCE71-597F-480D-A599-4673F80C49EC}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayTownWind" ID="{A1F60FC1-20FC-4748-B2FE-3DBB0F9BC9D4}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TownWind" ID="{FA6651B5-825E-49E3-9ACE-60201C906F0C}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayClickInteract" ID="{1CC11890-43DD-4A36-A252-F9097337692E}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NotificationSound" ID="{C5B2E352-94DB-4A46-AE87-A1E40EA7C866}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayAirportBG" ID="{494413A6-39AE-4C41-AC86-23E181F8E41C}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday14" ID="{C0858BCA-2950-4C44-A8D7-06DD5C64E012}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca7" ID="{E43E0518-DCB0-4C4C-9A55-2FB476E317BA}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClickInteract" ID="{94E625A0-B947-4C7A-8241-104A7401AFBB}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayNotification" ID="{C13A3ABB-FD87-4CFF-B6AF-643D9D2CEA9F}" WorkUnitID="{1E27FD67-7023-45F9-BAE0-11B88BED2C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AirportBG" ID="{BB45EA19-5BF8-4DEC-B639-B63BD0932A83}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca9" ID="{6A6286EE-5EBE-4E79-922E-B787B873080C}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday5" ID="{7DCD9198-2931-4E7F-9283-501DBB976745}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca12" ID="{4373AC19-2783-4E81-82F9-701B738CD09C}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Tuesday2" ID="{E3754F0F-2284-4EE1-AB88-A3DD3DA6A2AC}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca10" ID="{5400835F-6C60-4EE1-867A-6D909E80367E}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Puca8" ID="{12174F97-D7A1-4EFC-A3CB-22FD8C9D8583}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

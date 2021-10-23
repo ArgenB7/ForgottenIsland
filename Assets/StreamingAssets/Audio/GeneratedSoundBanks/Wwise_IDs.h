@@ -14,7 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAYAIRPORTBG = 2780011385U;
+        static const AkUniqueID PLAYCAVEDRIP = 117520761U;
+        static const AkUniqueID PLAYCLICKINTERACT = 1068360767U;
+        static const AkUniqueID PLAYCLICKREGULAR = 1802842219U;
+        static const AkUniqueID PLAYNOTIFICATION = 2249528842U;
         static const AkUniqueID PLAYTOWNBG = 2592033178U;
+        static const AkUniqueID PLAYTOWNWIND = 3103419189U;
         static const AkUniqueID PLAYWAVE = 1996670036U;
     } // namespace EVENTS
 

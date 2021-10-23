@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 5f1a4e6edc5681458636f0d7531e5528
     GuidInternal: 
-    m_lastTime: -8585686269141450956
+    m_lastTime: -8585686344377360128
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 943ef3efb719a24695c6072f05ecf642
     GuidInternal: 
-    m_lastTime: -8585686269143066643
+    m_lastTime: -8585686344378160823
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: adc150d01887514dba78f9a5fe8c5d14
     GuidInternal: 
-    m_lastTime: -8585686269141490857
+    m_lastTime: -8585666228470515333
     List:
     - name: RejectIsland
       guid: fa25a145fbbe0e4aa12b7bd4891600ed
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 67fd271e2370f945bae011b88bed2c74
     GuidInternal: 
-    m_lastTime: -8585686269145964009
+    m_lastTime: -8585666183020372192
     List:
     - name: PlayAirportBG
       guid: a6134449ae39414cac8623e181f8e41c
@@ -113,6 +113,74 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayCaveDrip
+      guid: 5ffe8222bb6613458576d7790f982920
+      id: 117520761
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayCaveDrip
+        ObjectType: 3
+        guid: 5ffe8222bb6613458576d7790f982920
+      Path: Events\Default Work Unit\PlayCaveDrip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayClickInteract
+      guid: 9018c11cdd43364aa252f9097337692e
+      id: 1068360767
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayClickInteract
+        ObjectType: 3
+        guid: 9018c11cdd43364aa252f9097337692e
+      Path: Events\Default Work Unit\PlayClickInteract
+      maxAttenuation: 0
+      maxDuration: 0.420604
+      minDuration: 0.420604
+    - name: PlayClickRegular
+      guid: e5a066a705476e42b3d7d1e3170da37e
+      id: 1802842219
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayClickRegular
+        ObjectType: 3
+        guid: e5a066a705476e42b3d7d1e3170da37e
+      Path: Events\Default Work Unit\PlayClickRegular
+      maxAttenuation: 0
+      maxDuration: 0.032453
+      minDuration: 0.032453
+    - name: PlayNotification
+      guid: bb3a3ac187fdff4cb6af643d9d2cea9f
+      id: 2249528842
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayNotification
+        ObjectType: 3
+        guid: bb3a3ac187fdff4cb6af643d9d2cea9f
+      Path: Events\Default Work Unit\PlayNotification
+      maxAttenuation: 0
+      maxDuration: 0.045052
+      minDuration: 0.045052
     - name: PlayTownBG
       guid: f65f9a34348c6241a4da52afaa10535c
       id: 2592033178
@@ -130,6 +198,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayTownWind
+      guid: c10ff6a1fc204847b2fe3dbb0f9bc9d4
+      id: 3103419189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayTownWind
+        ObjectType: 3
+        guid: c10ff6a1fc204847b2fe3dbb0f9bc9d4
+      Path: Events\Default Work Unit\PlayTownWind
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWave
+      guid: 24bef06391379e468aad259ccb779c86
+      id: 1996670036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: PlayWave
+        ObjectType: 3
+        guid: 24bef06391379e468aad259ccb779c86
+      Path: Events\Default Work Unit\PlayWave
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -142,7 +244,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 1100011d4b217948a6191d462d36c954
     GuidInternal: 
-    m_lastTime: -8585686269145894167
+    m_lastTime: -8585686344378891449
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -156,7 +258,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 60e63e5c78222244a90440898fafbe1f
     GuidInternal: 
-    m_lastTime: -8585686269141470912
+    m_lastTime: -8585686344378956506
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -170,7 +272,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5a19216bed22224a928e1c348bd0a6db
     GuidInternal: 
-    m_lastTime: -8585686269141470912
+    m_lastTime: -8585686344377880578
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -184,10 +286,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 8a0eb022be82f749969dd017852c7f5d
     GuidInternal: 
-    m_lastTime: -8585686269141460932
+    m_lastTime: -8585686344378085757
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000110000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

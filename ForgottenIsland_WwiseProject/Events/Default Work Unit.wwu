@@ -36,12 +36,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayClick" ID="{A766A0E5-4705-426E-B3D7-D1E3170DA37E}">
+				<Event Name="PlayClickRegular" ID="{A766A0E5-4705-426E-B3D7-D1E3170DA37E}">
 					<ChildrenList>
 						<Action Name="" ID="{52CE9B98-9BAF-4561-8568-8692DC00D5CD}" ShortID="376422461">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ClickInteract" ID="{54ADE82E-B942-44BB-A1D9-3493CAEAAA62}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+									<ObjectRef Name="ClickRegular" ID="{54ADE82E-B942-44BB-A1D9-3493CAEAAA62}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,40 @@
 						<Action Name="" ID="{F8169521-AD87-456D-BDB5-E23317CD6DE2}" ShortID="56796001">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="NotificationSound" ID="{8AFF5D91-3CBD-469A-83DC-A6AE53383167}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+									<ObjectRef Name="NotificationSound" ID="{C5B2E352-94DB-4A46-AE87-A1E40EA7C866}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayClickInteract" ID="{1CC11890-43DD-4A36-A252-F9097337692E}">
+					<ChildrenList>
+						<Action Name="" ID="{1FDAD1A2-FB91-4B96-9238-0F42A6307E44}" ShortID="700784852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClickInteract" ID="{94E625A0-B947-4C7A-8241-104A7401AFBB}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayCaveDrip" ID="{2282FE5F-66BB-4513-8576-D7790F982920}">
+					<ChildrenList>
+						<Action Name="" ID="{2A608717-66EA-496F-B865-C237C4792387}" ShortID="82685048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CaveDrip" ID="{D06312D1-793C-4466-8879-9D836E9B7444}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayTownWind" ID="{A1F60FC1-20FC-4748-B2FE-3DBB0F9BC9D4}">
+					<ChildrenList>
+						<Action Name="" ID="{C52B8E62-37AA-46B6-A347-AFEDD2999782}" ShortID="973842678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TownWind" ID="{FA6651B5-825E-49E3-9ACE-60201C906F0C}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

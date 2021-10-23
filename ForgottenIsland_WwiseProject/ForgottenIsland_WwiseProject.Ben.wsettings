@@ -3,9 +3,12 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{C1A2D761-AEC6-4175-AB76-4121026998ED}">
 			<PropertyList>
+				<Property Name="Event Action List\{1CC11890-43DD-4A36-A252-F9097337692E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2282FE5F-66BB-4513-8576-D7790F982920}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{349A5FF6-8C34-4162-A4DA-52AFAA10535C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{494413A6-39AE-4C41-AC86-23E181F8E41C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{63F0BE24-3791-469E-8AAD-259CCB779C86}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A1F60FC1-20FC-4748-B2FE-3DBB0F9BC9D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A766A0E5-4705-426E-B3D7-D1E3170DA37E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C13A3ABB-FD87-4CFF-B6AF-643D9D2CEA9F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -24,11 +27,11 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="+D52Rpg3MkCsA4joLZlYXXwIT/J6zDFIobk6M0G6vHs="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="Z2oLgFed/EOT4Mhcyy5XGwEDamb/////+5ssWVNNXE+Luf4FnRhPSgEDamb/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="Z2oLgFed/EOT4Mhcyy5XGwEDS/b/////+5ssWVNNXE+Luf4FnRhPSgEDS/b/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -42,7 +45,7 @@
 				<Property Name="PluginUserAcknowledge\McDspLimiter" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{CEB92655-4AE4-4D4E-A56C-26C0895931C1}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1042838587" Language="SFX" Hash="312267815">
+		<SoundBank Id="1042838587" Language="SFX" Hash="3811492214">
 			<ObjectPath>\SoundBanks\Default Work Unit\RejectIsland</ObjectPath>
 			<ShortName>RejectIsland</ShortName>
 			<Path>RejectIsland.bnk</Path>
@@ -24,6 +24,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="117520761" Name="PlayCaveDrip" ObjectPath="\Events\Default Work Unit\PlayCaveDrip" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="884407168" Language="SFX">
+							<ShortName>162116__editor-adp__water-dripping-large-echo.wav</ShortName>
+							<Path>SFX\162116__editor-adp__water-dripping-large-echo_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1068360767" Name="PlayClickInteract" ObjectPath="\Events\Default Work Unit\PlayClickInteract" DurationType="OneShot" DurationMin="0.420604" DurationMax="0.420604">
+					<IncludedMemoryFiles>
+						<File Id="183031451" Language="SFX">
+							<ShortName>513481__budek__click.wav</ShortName>
+							<Path>SFX\513481__budek__click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1802842219" Name="PlayClickRegular" ObjectPath="\Events\Default Work Unit\PlayClickRegular" DurationType="OneShot" DurationMin="0.032453" DurationMax="0.032453">
+					<IncludedMemoryFiles>
+						<File Id="1002609722" Language="SFX">
+							<ShortName>256116__kwahmah-02__click(1).wav</ShortName>
+							<Path>SFX\256116__kwahmah-02__click(1)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2249528842" Name="PlayNotification" ObjectPath="\Events\Default Work Unit\PlayNotification" DurationType="OneShot" DurationMin="0.045052" DurationMax="0.045052">
+					<IncludedMemoryFiles>
+						<File Id="306591768" Language="SFX">
+							<ShortName>328117__greenvwbeetle__pop-8.wav</ShortName>
+							<Path>SFX\328117__greenvwbeetle__pop-8_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2592033178" Name="PlayTownBG" ObjectPath="\Events\Default Work Unit\PlayTownBG" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="21082195" Language="SFX">
@@ -32,7 +64,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1996670036" Name="PlayWave" ObjectPath="\Events\Default Work Unit\PlayWave" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="3103419189" Name="PlayTownWind" ObjectPath="\Events\Default Work Unit\PlayTownWind" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1028923877" Language="SFX">
+							<ShortName>457318__stek59__autumn-wind-and-dry-leaves.wav</ShortName>
+							<Path>SFX\457318__stek59__autumn-wind-and-dry-leaves_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1996670036" Name="PlayWave" ObjectPath="\Events\Default Work Unit\PlayWave" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="658602955" Language="SFX">
 							<ShortName>463250__suburbanwizard__beach-waves-04(1).wav</ShortName>
@@ -50,77 +90,29 @@
 					<ShortName>AirportBG.wav</ShortName>
 					<Path>SFX\AirportBG_D79FB2B7.wem</Path>
 				</File>
-				<File Id="169704829" Language="SFX">
-					<ShortName>Jay Character Sound 16.wav</ShortName>
-					<Path>SFX\Jay Character Sound 16_10C4C929.wem</Path>
+				<File Id="183031451" Language="SFX">
+					<ShortName>513481__budek__click.wav</ShortName>
+					<Path>SFX\513481__budek__click_10C4C929.wem</Path>
 				</File>
-				<File Id="221912061" Language="SFX">
-					<ShortName>Jay Character Sound 9.wav</ShortName>
-					<Path>SFX\Jay Character Sound 9_10C4C929.wem</Path>
-				</File>
-				<File Id="357562468" Language="SFX">
-					<ShortName>Jay Character Sound 17.wav</ShortName>
-					<Path>SFX\Jay Character Sound 17_10C4C929.wem</Path>
-				</File>
-				<File Id="387282634" Language="SFX">
-					<ShortName>Jay Character Sound 6.wav</ShortName>
-					<Path>SFX\Jay Character Sound 6_10C4C929.wem</Path>
-				</File>
-				<File Id="407545487" Language="SFX">
-					<ShortName>Jay Character Sound 11.wav</ShortName>
-					<Path>SFX\Jay Character Sound 11_10C4C929.wem</Path>
-				</File>
-				<File Id="489403324" Language="SFX">
-					<ShortName>Jay Character Sound 1.wav</ShortName>
-					<Path>SFX\Jay Character Sound 1_10C4C929.wem</Path>
-				</File>
-				<File Id="494067970" Language="SFX">
-					<ShortName>Jay Character Sound 8.wav</ShortName>
-					<Path>SFX\Jay Character Sound 8_10C4C929.wem</Path>
-				</File>
-				<File Id="519225359" Language="SFX">
-					<ShortName>Jay Character Sound 5.wav</ShortName>
-					<Path>SFX\Jay Character Sound 5_10C4C929.wem</Path>
-				</File>
-				<File Id="557073169" Language="SFX">
-					<ShortName>Jay Character Sound 2.wav</ShortName>
-					<Path>SFX\Jay Character Sound 2_10C4C929.wem</Path>
-				</File>
-				<File Id="573024912" Language="SFX">
-					<ShortName>Jay Character Sound 4.wav</ShortName>
-					<Path>SFX\Jay Character Sound 4_10C4C929.wem</Path>
-				</File>
-				<File Id="589021173" Language="SFX">
-					<ShortName>Jay Character Sound 12.wav</ShortName>
-					<Path>SFX\Jay Character Sound 12_10C4C929.wem</Path>
-				</File>
-				<File Id="638269662" Language="SFX">
-					<ShortName>Jay Character Sound 10.wav</ShortName>
-					<Path>SFX\Jay Character Sound 10_10C4C929.wem</Path>
+				<File Id="306591768" Language="SFX">
+					<ShortName>328117__greenvwbeetle__pop-8.wav</ShortName>
+					<Path>SFX\328117__greenvwbeetle__pop-8_10C4C929.wem</Path>
 				</File>
 				<File Id="658602955" Language="SFX">
 					<ShortName>463250__suburbanwizard__beach-waves-04(1).wav</ShortName>
 					<Path>SFX\463250__suburbanwizard__beach-waves-04(1)_D79FB2B7.wem</Path>
 				</File>
-				<File Id="727568260" Language="SFX">
-					<ShortName>Jay Character Sound 13.wav</ShortName>
-					<Path>SFX\Jay Character Sound 13_10C4C929.wem</Path>
+				<File Id="884407168" Language="SFX">
+					<ShortName>162116__editor-adp__water-dripping-large-echo.wav</ShortName>
+					<Path>SFX\162116__editor-adp__water-dripping-large-echo_D79FB2B7.wem</Path>
 				</File>
-				<File Id="806258912" Language="SFX">
-					<ShortName>Jay Character Sound 14.wav</ShortName>
-					<Path>SFX\Jay Character Sound 14_10C4C929.wem</Path>
+				<File Id="1002609722" Language="SFX">
+					<ShortName>256116__kwahmah-02__click(1).wav</ShortName>
+					<Path>SFX\256116__kwahmah-02__click(1)_10C4C929.wem</Path>
 				</File>
-				<File Id="806576522" Language="SFX">
-					<ShortName>Jay Character Sound 7.wav</ShortName>
-					<Path>SFX\Jay Character Sound 7_10C4C929.wem</Path>
-				</File>
-				<File Id="909180189" Language="SFX">
-					<ShortName>Jay Character Sound 15.wav</ShortName>
-					<Path>SFX\Jay Character Sound 15_10C4C929.wem</Path>
-				</File>
-				<File Id="910391791" Language="SFX">
-					<ShortName>Jay Character Sound 3.wav</ShortName>
-					<Path>SFX\Jay Character Sound 3_10C4C929.wem</Path>
+				<File Id="1028923877" Language="SFX">
+					<ShortName>457318__stek59__autumn-wind-and-dry-leaves.wav</ShortName>
+					<Path>SFX\457318__stek59__autumn-wind-and-dry-leaves_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

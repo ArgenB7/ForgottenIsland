@@ -1,27 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	117520761	PlayCaveDrip			\Default Work Unit\PlayCaveDrip	
+	1068360767	PlayClickInteract			\Default Work Unit\PlayClickInteract	
+	1802842219	PlayClickRegular			\Default Work Unit\PlayClickRegular	
 	1996670036	PlayWave			\Default Work Unit\PlayWave	
+	2249528842	PlayNotification			\Default Work Unit\PlayNotification	
 	2592033178	PlayTownBG			\Default Work Unit\PlayTownBG	
 	2780011385	PlayAirportBG			\Default Work Unit\PlayAirportBG	
+	3103419189	PlayTownWind			\Default Work Unit\PlayTownWind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	21082195	TownBG	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\TownBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownBG		9118668
 	60408016	AirportBG	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\AirportBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportBG		5622892
-	169704829	CharSound16	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound16		385088
-	221912061	CharSound9	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound9		202816
-	357562468	CharSound17	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 17_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound17		481344
-	387282634	CharSound6	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound6		120896
-	407545487	CharSound11	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound11		362560
-	489403324	CharSound1	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound1		163904
-	494067970	CharSound8	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound8		196672
-	519225359	CharSound5	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound5		182336
-	557073169	CharSound2	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound2		309312
-	573024912	CharSound4	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound4		135232
-	589021173	CharSound12	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound12		292928
-	638269662	CharSound10	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound10		319552
+	183031451	ClickInteract	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\513481__budek__click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClickInteract		40442
+	306591768	NotificationSound	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\328117__greenvwbeetle__pop-8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NotificationSound		4388
 	658602955	AirportWave	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\463250__suburbanwizard__beach-waves-04(1)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportWave		68037184
-	727568260	CharSound13	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound13		260160
-	806258912	CharSound14	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound14		122944
-	806576522	CharSound7	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound7		180288
-	909180189	CharSound15	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound15		280640
-	910391791	CharSound3	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\Jay Character Sound 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharSound3		188480
+	884407168	CaveDrip	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\162116__editor-adp__water-dripping-large-echo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\CaveDrip		12309760
+	1002609722	ClickRegular	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\256116__kwahmah-02__click(1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClickRegular		4112
+	1028923877	TownWind	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Windows\SFX\457318__stek59__autumn-wind-and-dry-leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownWind		8239452
 
