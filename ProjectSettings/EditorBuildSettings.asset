@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Airport - Week 10.unity
     guid: f19b3f60da5acd942be4e8957ed37e58
   - enabled: 1
-    path: Assets/Scenes/Town - Greybox.unity
-    guid: 04b599349b7c9884d9b84efd30170eed
+    path: Assets/Scenes/Town - Week 14.unity
+    guid: 6b7fb238fae8c4e3fbbccb7d9321473a
+  - enabled: 1
+    path: Assets/Scenes/CaveInterior.unity
+    guid: 40a3e039d3cde40fe9c735aca7fe24ca
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: fc74c75ca18e9634e9a70f50cca442df, type: 2}

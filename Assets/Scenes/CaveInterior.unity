@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17912786, g: 0.22429547, b: 0.3060684, a: 1}
+  m_IndirectSpecularColor: {r: 0.17912827, g: 0.22429627, b: 0.30606955, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4130,7 +4130,7 @@ MonoBehaviour:
     barkUI: {fileID: 11453294, guid: ec63fd16af26bcc44a1b76d55cc9654c, type: 3}
     barkUIOffset: {x: 0, y: 2, z: 0}
   standardDialogueUISettings:
-    subtitlePanelNumber: 5
+    subtitlePanelNumber: 9
     customSubtitlePanel: {fileID: 3351707670339880187, guid: edb765a1337fc13408b908b392b43dd3, type: 3}
     customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
     menuPanelNumber: 0
