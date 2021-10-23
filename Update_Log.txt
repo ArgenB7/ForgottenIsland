@@ -127,3 +127,5 @@ Fixed the merge conflicts I made like a dope. Sorry :/
 PUSH 26 - 23/10/2021 | Tanya
 Imported and re-textured additional town assets
 
+PUSH 27 - 23/10/2021 | Tanya
+Placed bushes and trees in town scene and re-textured some assets
