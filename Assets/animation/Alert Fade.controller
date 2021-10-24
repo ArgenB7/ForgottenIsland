@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slide Right Canvas Group Animator Controller
+  m_Name: Alert Fade
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Show
@@ -104,7 +104,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 53783d90e1ea9c44da6eea1c7fc32d33, type: 2}
+  m_Motion: {fileID: 7400000, guid: abc68dee982b40c4682b3b41b8b35360, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -156,7 +156,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ab8e54a30d440774e8bb19917c4b221d, type: 2}
+  m_Motion: {fileID: 7400000, guid: b9846954bf2279041aeda1a1bb2f7d38, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

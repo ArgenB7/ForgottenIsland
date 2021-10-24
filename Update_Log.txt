@@ -144,3 +144,6 @@ Added mail, cursor fix, etc.
 
 PUSH 33 - 24/10/2021 | Tanya
 Art pass! Added FlatKit shader to airport bushes and fixed up the colliders (still need to check the collision properly), added rocks and grass to town and cave scenes, changed tree colours, adjusted bush and tree shapes, implemented water shader
+
+PUSH 34 - 25/10/2021 | Charlotte
+Fixed major database and contacts bug (game breaker!). Added map and alerts. Restyled object interaction.
