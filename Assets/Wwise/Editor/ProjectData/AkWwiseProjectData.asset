@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 67fd271e2370f945bae011b88bed2c74
     GuidInternal: 
-    m_lastTime: -8585666144934859959
+    m_lastTime: -8585664721976026650
     List:
     - name: PlayAirportBG
       guid: a6134449ae39414cac8623e181f8e41c
@@ -232,6 +232,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: StopAirportBG
+      guid: ff7f7c97c598db4795663a0c37703303
+      id: 357867983
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: StopAirportBG
+        ObjectType: 3
+        guid: ff7f7c97c598db4795663a0c37703303
+      Path: Events\Default Work Unit\StopAirportBG
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopTownBG
+      guid: ad217dab62f7394a8466c5d5d83b9a4c
+      id: 3490253620
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67fd271e2370f945bae011b88bed2c74
+      - ElementName: StopTownBG
+        ObjectType: 3
+        guid: ad217dab62f7394a8466c5d5d83b9a4c
+      Path: Events\Default Work Unit\StopTownBG
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -289,7 +323,7 @@ MonoBehaviour:
     m_lastTime: -8585686269141460932
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	117520761	PlayCaveDrip			\Default Work Unit\PlayCaveDrip	
+	357867983	StopAirportBG			\Default Work Unit\StopAirportBG	
 	1068360767	PlayClickInteract			\Default Work Unit\PlayClickInteract	
 	1802842219	PlayClickRegular			\Default Work Unit\PlayClickRegular	
 	1996670036	PlayWave			\Default Work Unit\PlayWave	
@@ -7,14 +8,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	2592033178	PlayTownBG			\Default Work Unit\PlayTownBG	
 	2780011385	PlayAirportBG			\Default Work Unit\PlayAirportBG	
 	3103419189	PlayTownWind			\Default Work Unit\PlayTownWind	
+	3490253620	StopTownBG			\Default Work Unit\StopTownBG	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	21082195	TownBG	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\TownBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownBG		9118668
-	60408016	AirportBG	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\AirportBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportBG		5622892
-	183031451	ClickInteract	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\513481__budek__click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClickInteract		40442
-	306591768	NotificationSound	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\328117__greenvwbeetle__pop-8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NotificationSound		4388
-	658602955	AirportWave	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\463250__suburbanwizard__beach-waves-04(1)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportWave		68037184
-	884407168	CaveDrip	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\162116__editor-adp__water-dripping-large-echo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\CaveDrip		12309760
-	1002609722	ClickRegular	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\256116__kwahmah-02__click(1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClickRegular		4112
-	1028923877	TownWind	C:\Users\Ben\Documents\ForgottenIsland\ForgottenIsland_WwiseProject\.cache\Mac\SFX\457318__stek59__autumn-wind-and-dry-leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownWind		8239452
+	21082195	TownBG	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\TownBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownBG		9118668
+	60408016	AirportBG	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\AirportBG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportBG		5622892
+	183031451	ClickInteract	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\513481__budek__click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClickInteract		40442
+	306591768	NotificationSound	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\328117__greenvwbeetle__pop-8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NotificationSound		4388
+	658602955	AirportWave	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\463250__suburbanwizard__beach-waves-04(1)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirportWave		68037184
+	884407168	CaveDrip	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\162116__editor-adp__water-dripping-large-echo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\CaveDrip		12309760
+	1002609722	ClickRegular	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\256116__kwahmah-02__click(1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClickRegular		4112
+	1028923877	TownWind	C:\Users\charl\Documents\Unity\Reject Island 2020.3\ForgottenIsland_WwiseProject\.cache\Mac\SFX\457318__stek59__autumn-wind-and-dry-leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TownWind		8239452
 

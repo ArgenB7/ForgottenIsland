@@ -147,3 +147,6 @@ Art pass! Added FlatKit shader to airport bushes and fixed up the colliders (sti
 
 PUSH 34 - 25/10/2021 | Charlotte
 Fixed major database and contacts bug (game breaker!). Added map and alerts. Restyled object interaction.
+
+PUSH 35 - 25/10/2021 | Charlotte
+Implemented fix for sound bug. Updated contacts and database (more to come) Cave and Office scenes are basically finished. Same with airstrip.

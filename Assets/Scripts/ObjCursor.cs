@@ -23,7 +23,7 @@ public class ObjCursor : MonoBehaviour
     {
         cursorOffset = new Vector2(mainCursor.width / 2, mainCursor.height / 2);
 
-        DontDestroyOnLoad(this.gameObject);
+    //    DontDestroyOnLoad(this.gameObject);
     }
         private void FixedUpdate()
     {

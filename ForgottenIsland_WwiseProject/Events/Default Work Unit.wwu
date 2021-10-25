@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<Event Name="PlayAirportBG" ID="{494413A6-39AE-4C41-AC86-23E181F8E41C}">
 					<ChildrenList>
+						<Action Name="" ID="{23136AEC-8383-48E2-8F82-73429A9FECC9}" ShortID="267666725">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{29E36BE2-A90F-48B4-AD50-8EEAE39631B4}" ShortID="901366416">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -16,6 +26,26 @@
 				</Event>
 				<Event Name="PlayTownBG" ID="{349A5FF6-8C34-4162-A4DA-52AFAA10535C}">
 					<ChildrenList>
+						<Action Name="" ID="{0633B6ED-8EEE-4751-98A0-94B35010B60B}" ShortID="699238510">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AirportBG" ID="{BB45EA19-5BF8-4DEC-B639-B63BD0932A83}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{851706A4-9E74-428B-AAD8-CCE6021F07D8}" ShortID="679464140">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CaveDrip" ID="{D06312D1-793C-4466-8879-9D836E9B7444}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{C2B7F9E4-8FCA-4DB4-9AD0-BB1A75AE9513}" ShortID="384967033">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -71,6 +101,16 @@
 				</Event>
 				<Event Name="PlayCaveDrip" ID="{2282FE5F-66BB-4513-8576-D7790F982920}">
 					<ChildrenList>
+						<Action Name="" ID="{67A94EB2-3880-41C8-BBC4-A918601FAB99}" ShortID="429761175">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{2A608717-66EA-496F-B865-C237C4792387}" ShortID="82685048">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -86,6 +126,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TownWind" ID="{FA6651B5-825E-49E3-9ACE-60201C906F0C}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopAirportBG" ID="{977C7FFF-98C5-47DB-9566-3A0C37703303}">
+					<ChildrenList>
+						<Action Name="" ID="{1185F5BE-883F-4CDE-8540-5EF1990BFEA7}" ShortID="76226007">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AirportBG" ID="{BB45EA19-5BF8-4DEC-B639-B63BD0932A83}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopTownBG" ID="{AB7D21AD-F762-4A39-8466-C5D5D83B9A4C}">
+					<ChildrenList>
+						<Action Name="" ID="{5AA8A051-548C-4825-ADCC-C4CF531D7E8D}" ShortID="841184735">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TownBG" ID="{294CAE54-2309-4FF4-95A8-E461C46DFE5B}" WorkUnitID="{72EF3A3E-6CEF-42DC-ACBF-898E4334850E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
